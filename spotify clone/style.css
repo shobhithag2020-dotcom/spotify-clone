@@ -1,0 +1,779 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    background-color:black;
+    margin:0;
+    color:white;
+    overflow:hidden;
+
+
+}
+.side-bar{
+    height:100vh;
+    width:350px;
+}
+.side-bar .part1{
+    margin-left:10px;
+    margin-top:7px;
+    background-color:rgb(18,18,18);
+    height:65px;
+    width:80%;
+    padding:20px;
+    border-radius:10px 10px 10px 10px;
+}
+.side-bar .part1 .home {
+    background-color:rgb(18,18,18);
+    border:none;
+    font-size:15px;
+    margin-bottom:20px;
+    color:grey;
+}
+.home i{
+    padding-right:10px;
+    padding-left:10px;
+    background-color:rgb(18,18,18);
+}
+.home a{
+    text-decoration:none;
+    text-align:center;
+    font-size:15px;
+    align-items:center;
+    background-color:rgb(18,18,18);
+}
+.part1 .home:hover{
+    color:white;
+    font-weight:600;
+}
+.side-bar .part1 .search {
+    background-color:rgb(18,18,18);
+    border:none;
+    font-size:15px;
+
+}
+.search i{
+    padding-right:10px;
+    padding-left:10px;
+    background-color:rgb(18,18,18);
+    color:rgba(255, 255, 255, 0.5);
+}
+.search a{
+    text-decoration:none;
+    text-align:center;
+    color:rgba(255, 255, 255, 0.5);
+    font-size:15px;
+    align-items:center;
+    background-color:rgb(18,18,18);
+}
+
+
+.side-bar .part2{
+    height:100vh;
+    width:80%;
+    background-color:rgb(18,18,18);
+    border-radius:10px 10px 10px 10px;
+    padding:20px;
+    margin-left:10px;
+    margin:10px;
+}
+.part2 .library{
+    background-color:rgb(18,18,18);
+    border:none;
+    font-size:20px;
+    margin-bottom:20px;
+    color:grey;
+}
+
+.part2 .library img{
+    height:20px;
+    width:20px;
+    padding-right:10px;
+    background-color:rgb(18,18,18);
+    color:gray;
+
+}
+.part2 .library a{
+    text-decoration:none;
+    text-align:center;
+    font-size:17px;
+    align-items:center;
+    background-color:rgb(18,18,18);
+    padding-right:57px;
+    padding-left:10px;
+    font-weight:600;
+    color:gray;
+}
+.part2 .library i{
+    color:gray;
+    background-color:rgb(18,18,18);
+}
+.part2 .playlist{
+    background-color:rgb(33, 33, 33);
+    border-radius:10px 10px 10px 10px;
+    padding:20px;
+    font-size:13px;
+    margin-bottom:20px;
+    color:white;
+    height:100px;
+}
+
+.part2 .playlist button{
+    background-color:white;
+    border-radius:20px 20px 20px 20px;
+    border:none;
+    width:135px;
+    text-align:center;
+    height:30px;
+    font-size:13px;
+    font-weight:700;
+    color:black;
+    
+}
+.part2 .Podcasts{
+    background-color:rgb(33, 33, 33);
+    border-radius:10px 10px 10px 10px;
+    padding:20px;
+    font-size:11px;
+    color:white;
+    height:100px;
+}
+.Podcasts button{
+    background-color:white;
+    border-radius:20px 20px 20px 20px;
+    border:none;
+    width:135px;
+    text-align:center;
+    height:30px;
+    font-size:13px;
+    font-weight:700;
+    color:black;
+}
+.main .footer{
+    background-color:black;
+    height:70px;
+    width:100%;
+    margin-top:90vh;
+    margin-bottom:0px;
+    position:fixed;
+    bottom:0;
+}
+.main .footer .footer1{
+    background-color:black;
+    height:20px;
+    display:flex;
+    justify-content:space-between;
+    align-self:center;
+    padding-left:500px;
+    padding-right:500px;
+    margin-top:10px;
+}
+.main .footer .footer2{
+    margin-top:10px;
+    margin-left:420px;
+}
+.main .main-content{
+    height:100vh;
+    width:930px;
+    margin-left:335px;
+    margin-top:10px;
+    margin-right:10px;
+    position:fixed;
+     background: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0.08) 0%,   /* lighter shade at top */
+        rgba(255, 255, 255, 0) 100%      /* fades to fully transparent */
+    );
+    border-radius:10px 10px 10px 10px;
+    overflow-y:auto;
+}
+.main-content::-webkit-scrollbar {
+    width: 8px;
+}
+
+.main-content::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.main-content::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+}
+
+.main-content::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.main .main-content .section2{
+     background-color:rgba(48,44,44,0.1);
+    height:320px;
+    width:100%;
+    margin-top:10px;
+
+}
+.main-content .section2 .card{
+    height:300px;
+    width:25%;
+    background-color:black;
+    margin-left:20px;
+    border-radius:10px 10px 10px 10px;
+
+    transition:all 0.3s ease-in-out;
+}
+.section2 .card img{
+    height:190px;
+    width:90%;
+    margin-left:10px;
+    margin-top:10px;
+    margin-bottom:5px;
+    margin-right:10px;
+    border-radius:10px 10px 10px 10px;
+    
+    
+}
+.section2 .card h3{
+    font-weight:600;
+    height:20px;
+    width:90%;
+    margin-left:10px;
+    margin-top:7px;
+    margin-bottom:20px;
+    margin-right:10px;
+}
+.section2 .card p{
+    height:30px;
+    font-size:13px;
+    width:90%;
+    margin-left:10px;
+    margin-top:7px;
+    margin-bottom:20px;
+    margin-right:10px;
+    color:gray;
+}
+.section2 .card:hover{
+    transform:scale(1.02);
+    box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.5);
+}
+.main-content .section3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height:330px;
+    width:100%;
+}
+.section3 .card-1{
+    background-color: black;
+    height:300px;
+    width:200px;
+    border-radius: 10px 10px 10px 10px;
+    transition:all 0.3s ease-in-out;
+}
+.section3 .card-1 img{
+    height:200px;
+    width:90%;
+    margin-top:10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px 10px 10px 10px;
+}
+.section3 .card-1 h3{
+    margin-left:10px;
+    margin-bottom:10px;
+}
+.section3 .card-1 p{
+    color:gray;
+    margin-left:10px;
+}
+.section3 .card-2{
+    background-color: black;
+    height:300px;
+    width:200px;
+    border-radius: 10px 10px 10px 10px;
+    transition:all 0.3s ease-in-out;
+}
+
+.section3 .card-2 img{
+    height:200px;
+    width:90%;
+    margin-top:10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+.section3 .card-3{
+    background-color: black;
+    height:300px;
+    width:200px;
+    border-radius: 10px 10px 10px 10px;
+    transition:all 0.3s ease-in-out;
+
+
+}
+.section3 .card-3 img{
+    height:200px;
+    width:90%;
+    margin-top:10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px 10px 10px 10px;
+}
+.section3 .card-4{
+    background-color: black;
+    height:300px;
+    width:200px;
+    border-radius: 10px 10px 10px 10px;
+    transition:all 0.3s ease-in-out;
+
+}
+.section3 .card-4 img{
+    height:200px;
+    width:90%;
+    margin-top:10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px 10px 10px 10px;
+}
+.section3 .card-5{
+    background-color: black;
+    height:300px;
+    width:200px;
+    border-radius: 10px 10px 10px 10px;
+    transition:all 0.3s ease-in-out;
+
+
+}
+.section3 .card-5 img{
+    height:200px;
+    width:90%;
+    margin-top:10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px 10px 10px 10px;
+}
+.section3 .card-1:hover{
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3);
+    transform:scale(1.02);
+}
+.section3 .card-2:hover{
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3);
+    transform:scale(1.02);
+}
+.section3 .card-3:hover{
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3);
+    transform:scale(1.02);
+}
+.section3 .card-4:hover{
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3);
+    transform:scale(1.02);
+}
+.section3 .card-5:hover{
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3);
+    transform:scale(1.02);
+}
+.main-content .section4{
+     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height:330px;
+    width:100%;   
+}
+.section4 .card-1{
+    background-color: black;
+    height:300px;
+    width:200px;
+    border-radius: 10px 10px 10px 10px;
+    transition:all 0.3s ease-in-out;
+}
+.section4 .card-1 img{
+    height:200px;
+    width:90%;
+    margin-top:10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px 10px 10px 10px;
+}
+.section4 .card-1:hover{
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3);
+    transform:scale(1.02);
+}
+.section4 .card-2{
+    background-color: black;
+    height:300px;
+    width:200px;
+    border-radius: 10px 10px 10px 10px;
+    transition:all 0.3s ease-in-out;
+}
+
+.section4 .card-2 img{
+    height:200px;
+    width:90%;
+    margin-top:10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px 10px 10px 10px;
+} 
+.section4 .card-2:hover{
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3);
+    transform:scale(1.02);
+}
+.section4 .card-3{
+    background-color: black;
+    height:300px;
+    width:200px;
+    border-radius: 10px 10px 10px 10px;
+    transition:all 0.3s ease-in-out;
+}
+.section4 .card-3 img{
+    height:200px;
+    width:90%;
+    margin-top:10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px 10px 10px 10px;
+}
+.section4 .card-3:hover{
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3);
+    transform:scale(1.02);
+}
+.section4 .card-4{
+    background-color: black;
+    height:300px;
+    width:200px;
+    border-radius: 10px 10px 10px 10px;
+    transition:all 0.3s ease-in-out;
+}
+.section4 .card-4 img{
+    height:200px;
+    width:90%;
+    margin-top:10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px 10px 10px 10px;
+}
+.section4 .card-4:hover{
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3);
+    transform:scale(1.02);
+}
+.section4 .card-5{
+    background-color: black;
+    height:300px;
+    width:200px;
+    border-radius: 10px 10px 10px 10px;
+    transition:all 0.3s ease-in-out;
+}
+.section4 .card-5 img{
+    height:200px;
+    width:90%;
+    margin-top:10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px 10px 10px 10px;
+}
+.section4 .card-5:hover{
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3);
+    transform:scale(1.02);
+}
+.main-content .section5{
+     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height:330px;
+    width:100%;   
+}
+.section5 .card-1{
+    background-color: black;
+    height:330px;
+    width:200px;
+    border-radius: 10px 10px 10px 10px;
+    transition:all 0.3s ease-in-out;
+}
+.section5 .card-1 img{
+    height:200px;
+    width:90%;
+    margin-top:10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px 10px 10px 10px;
+}
+.section5 .card-2{
+    background-color: black;
+    height:300px;
+    width:200px;
+    border-radius: 10px 10px 10px 10px;
+    transition:all 0.3s ease-in-out;
+}
+.section5 .card-2 img{
+    height:200px;
+    width:90%;
+    margin-top:10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px 10px 10px 10px;
+}
+.section5 .card-3{
+    background-color: black;
+    height:300px;
+    width:200px;
+    border-radius: 10px 10px 10px 10px;
+    transition:all 0.3s ease-in-out;
+}
+.section5 .card-3 img{
+    height:200px;
+    width:90%;
+    margin-top:10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px 10px 10px 10px;
+}
+.section5 .card-4{
+    background-color: black;
+    height:300px;
+    width:200px;
+    border-radius: 10px 10px 10px 10px;
+    transition:all 0.3s ease-in-out;
+}
+.section5 .card-4 img{
+    height:200px;
+    width:90%;
+    margin-top:10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px 10px 10px 10px;
+}
+.section5 .card-5{
+    background-color: black;
+    height:300px;
+    width:200px;
+    border-radius: 10px 10px 10px 10px;
+    transition:all 0.3s ease-in-out;
+}
+.section5 .card-5 img{
+    height:200px;
+    width:90%;
+    margin-top:10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px 10px 10px 10px;
+}
+.section5 .card-1:hover{
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3);
+    transform:scale(1.02);
+}
+.section5 .card-2:hover{
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3);
+    transform:scale(1.02);
+}
+.section5 .card-3:hover{
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3);
+    transform:scale(1.02);
+}
+.section5 .card-4:hover{
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3);
+    transform:scale(1.02);
+}
+.section5 .card-5:hover{
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3);
+    transform:scale(1.02);
+}
+.main-content .section6{
+     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height:320px;
+    width:100%;   
+}
+.section6 .card-1{
+    background-color: black;
+    height:300px;
+    width:200px;
+    border-radius: 10px 10px 10px 10px;
+    transition:all 0.3s ease-in-out;
+}
+.section6 .card-2{
+    background-color: black;
+    height:300px;
+    width:200px;
+    border-radius: 10px 10px 10px 10px;
+    transition:all 0.3s ease-in-out;
+}
+.section6 .card-3{
+    background-color: black;
+    height:300px;
+    width:200px;
+    border-radius: 10px 10px 10px 10px;
+    transition:all 0.3s ease-in-out;
+}
+.section6 .card-4{
+    background-color: black;
+    height:300px;
+    width:200px;
+    border-radius: 10px 10px 10px 10px;
+    transition:all 0.3s ease-in-out;
+}
+.section6 .card-5{
+    background-color: black;
+    height:300px;
+    width:200px;
+    border-radius: 10px 10px 10px 10px;
+    transition:all 0.3s ease-in-out;
+}
+.section6 .card-1 img{
+    height:200px;
+    width:90%;
+    margin-top:10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px 10px 10px 10px;
+}
+.section6 .card-2 img{
+    height:200px;
+    width:90%;
+    margin-top:10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px 10px 10px 10px;
+}
+.section6 .card-3 img{
+    height:200px;
+    width:90%;
+    margin-top:10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px 10px 10px 10px;
+}
+.section6 .card-4 img{
+    height:200px;
+    width:90%;
+    margin-top:10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px 10px 10px 10px;
+}
+.section6 .card-5 img{
+    height:200px;
+    width:90%;
+    margin-top:10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px 10px 10px 10px;
+}
+.section6 .card-1:hover{
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3);
+    transform:scale(1.02);
+}
+.section6 .card-2:hover{
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3);
+    transform:scale(1.02);
+}
+.section6 .card-3:hover{
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3);
+    transform:scale(1.02);
+}
+.section6 .card-4:hover{
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3);
+    transform:scale(1.02);
+}
+.section6 .card-5:hover{
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3);
+    transform:scale(1.02);
+}
+.main-content .section7{
+     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height:400px;
+    width:100%;   
+}
+.section7 .card-1{
+    background-color: black;
+    height:300px;
+    width:200px;
+    border-radius: 10px 10px 10px 10px;
+    transition:all 0.3s ease-in-out;
+}
+.section7 .card-1 img{
+    height:200px;
+    width:90%;
+    margin-top:10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px 10px 10px 10px;
+}
+.section7 .card-2{
+    background-color: black;
+    height:300px;
+    width:200px;
+    border-radius: 10px 10px 10px 10px;
+    transition:all 0.3s ease-in-out;
+}
+.section7 .card-2 img{
+    height:200px;
+    width:90%;
+    margin-top:10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px 10px 10px 10px;
+}
+.section7 .card-3{
+    background-color: black;
+    height:300px;
+    width:200px;
+    border-radius: 10px 10px 10px 10px;
+    transition:all 0.3s ease-in-out;
+}
+.section7 .card-3 img{
+    height:200px;
+    width:90%;
+    margin-top:10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px 10px 10px 10px;
+}
+.section7 .card-4{
+    background-color: black;
+    height:300px;
+    width:200px;
+    border-radius: 10px 10px 10px 10px;
+    transition:all 0.3s ease-in-out;
+}
+.section7 .card-4 img{
+    height:200px;
+    width:90%;
+    margin-top:10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px 10px 10px 10px;
+}
+.section7 .card-5{
+    background-color: black;
+    height:300px;
+    width:200px;
+    border-radius: 10px 10px 10px 10px;
+    transition:all 0.3s ease-in-out;
+}
+.section7 .card-5 img{
+    height:200px;
+    width:90%;
+    margin-top:10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px 10px 10px 10px;
+}
+.section7 .card-1:hover{
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3);
+    transform:scale(1.02);
+}
+.section7 .card-2:hover{
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3);
+    transform:scale(1.02);
+}
+.section7 .card-3:hover{
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3);
+    transform:scale(1.02);
+}
+.section7 .card-4:hover{
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3);
+    transform:scale(1.02);
+}
+.section7 .card-5:hover{
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3);
+    transform:scale(1.02);
+}
