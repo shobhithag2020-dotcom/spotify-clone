@@ -3,7 +3,7 @@
 A responsive music streaming web application frontend inspired by Spotify's user interface, built purely with HTML and CSS.
 
 ## 🚀 Live Demo
-*(Optional: If you deploy this on Vercel or GitHub Pages, add your live link here!)*
+https://spotify-clone-nine-beta-83.vercel.app/
 
 ## 🛠️ Tech Stack
 * **Markup:** HTML5
